@@ -46,7 +46,7 @@ public class SaleListLogic {
             SaleList saleList = new SaleList(sale,details);
             saveList(saleList);
         }
-        showList();
+        showSaleList();
     }
     private SaleListDetail[] inputSaleListDetail() {
         int itemNumber;
