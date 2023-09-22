@@ -30,7 +30,7 @@ public class SaleListLogic {
             System.out.println("Chưa có thông tin nhân viên, vui lòng nhập trước.");
             return;
         }
-        System.out.println("Có bao nhiêu nhân viên bán được hàng trong một ngày: ");
+        System.out.println("Lập bảng tính công cho bao nhiêu nhân viên trong một ngày: ");
         int saleNumber;
         do{
             saleNumber = new Scanner(System.in).nextInt();
